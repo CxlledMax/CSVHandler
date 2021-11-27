@@ -19,3 +19,6 @@ Example:
 a_list = [["row1"], ["row2"]]
 CSVHandler.load("file path as string", a_list)
 ```
+
+## Changelog
+**27.11.2021**, 23:39 -> Added some if-statements to check if the path is a CSV-File.
