@@ -3,8 +3,7 @@ class CSVHandler:
         if ".csv" in path:
             file = open(path)
             beautified = [element for element in [row.strip() for row in file.readlines()]]
-            final = [row.split(", ") for row in beautified]
-            return final
+            return [row.split(", ") for row in beautified]
 
     def parse(path, data):
         if ".csv" in path:
