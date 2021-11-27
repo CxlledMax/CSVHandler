@@ -9,5 +9,13 @@ You can use this program from **Python version 2.5**.
 _Returns a list._ <br>
 Example:
 ```py
-data = CSVHandler.load("output.csv")
+data = CSVHandler.load("file path as string")
+```
+
+### CSVHandler.parse()
+_Returns nothing_ <br>
+Example:
+```py
+a_list = [["row1"], ["row2"]]
+CSVHandler.load("file path as string", a_list)
 ```
