@@ -22,4 +22,4 @@ CSVHandler.load("file path as string", a_list)
 
 ## Changelog
 **27.11.2021**, 23:39 (UTC+01:00) -> Added some if-statements to check if the path is a CSV-File. <br>
-**27.11.2021**, 23:46 (URC+01:00) -> Optimized return statement in the `CSVHandler.load()` method.
+**27.11.2021**, 23:46 (UTC+01:00) -> Optimized return statement in the `CSVHandler.load()` method.
